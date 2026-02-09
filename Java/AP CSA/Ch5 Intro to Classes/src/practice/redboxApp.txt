@@ -1,0 +1,42 @@
+package RedBox;
+
+public class RedBoxApp {
+
+	
+	public static void main(String[] args) {
+	//Instantiate three customers
+		//Customer1: Jean, $2, 18
+		//Customer2: Bobby, $10, 7
+		//Custormer3: Johnny, $3, 5
+		
+
+
+	//Instantiate six DVD movies // Rating of 1 = 5+   Rating of 2 = 7+     Rating of 3 = 18+
+		//DVD1: title and rating of 1
+		//DVD2: title and rating of 2
+		//DVD3: title and rating of 3
+		//DVD4: title and rating of 1
+		
+	System.out.print("\n-----Action 1 ------\n");		
+	//Customer1 rents DVD4 & DVD5
+	
+	//Customer2 rents DVD2
+	
+	//Customer3 rents DVD1
+	
+	//Display toStrings...
+	System.out.print("\n-----Action 2 ------\n");
+	
+	//Determine if Customer3 is allowed to rent DVD3
+	
+	//Determine if Customer1 has $ to rent DVD6
+	
+	
+	System.out.print("\n-----Action 3 ------\n");
+	//Customer2 returns DVD2
+	//Customer2 rents DVD6
+	
+	//Display toStrings...
+	}
+
+}

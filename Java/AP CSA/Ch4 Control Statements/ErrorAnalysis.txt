@@ -1,0 +1,82 @@
+package practice;
+
+public class ErrorAnalysis {
+
+	public static void main(String[] args) {
+		/*	compute the product of the odd integers 
+			from 1 to 100.
+			outcome - product will equal 3 * 5 *...*99 
+		*/
+		
+		//initialization Error
+		
+		/*
+			int product=0;
+			int i = 3;
+			while(i<=100) {
+				product = product * i;
+				i = i+2;
+			}
+			System.out.println(product);
+		*/
+		
+		
+		
+		//Off-by-One Error
+		
+		/*
+			int product=1;
+			int i = 3;
+			while(i< 99) {
+				product = product * i;
+				i = i+2;
+			}
+			System.out.println(product);
+		*/
+				
+		
+		
+		//Infinite Loop
+		
+		/*
+			int product=1;
+			int i = 3;
+			while(i != 100) {
+				product = product * i;
+				i = i+2;
+			}
+			System.out.println(product);
+		 */
+		
+		
+		//Error in Loop Body
+		
+		/*
+			int product=1;
+			int i = 3;
+			while(i <= 100) {
+				product = product + i;
+				i = i+2;
+			}
+			System.out.println(product);
+		*/
+		
+		
+		//Update Error
+		
+		/*
+			int product=1;
+			int i = 3;
+			while(i <= 100) {
+				i = i+2;
+				product = product * i;
+				
+			}
+			System.out.println(product);
+		*/
+		
+		
+	
+
+	}//end main
+}//end class
